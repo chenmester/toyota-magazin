@@ -1,0 +1,30 @@
+/* Alap stílusok */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .navbar {
+    display: flex;
+    background-color: #53c2ee;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbaroldal a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+img{
+    width: 300px;
+}
