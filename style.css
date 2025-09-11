@@ -27,4 +27,31 @@
 
 img{
     width: 300px;
+/* Koji Sato */
+}
+#sato{
+  float: right;
+  margin-right: 100px;
+  margin-top: 100px;
+  border-radius: 30px;
+  width: 400px;
+}
+#kojiszoveg{
+  margin-top: 100px;
+  margin-left: 100px;
+  float:left;
+  background-color: lightgrey;
+  opacity: 90%;
+  border-radius: 0px;
+}
+p{
+  line-height: 30px;
+}
+#main{
+  align-items: center;
+  gap:10px;
+}
+#koji{
+  display: flex;
+  float:;
 }
