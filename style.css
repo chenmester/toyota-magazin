@@ -13,8 +13,10 @@
   
   .navbar {
     background-color: #53c2ee;
-    padding: 15px 25px;
+    padding: 10px 20px;
     color: white;
+    display: flex;
+    justify-content: space-between;
   }
 
   .navbaroldal a{
@@ -22,6 +24,10 @@
     text-decoration: none;
     margin: 0 15px;
     font-size: 19px;
+  }
+
+  .icon img{
+    width: 50px;
   }
   
   #kep1{
@@ -98,4 +104,8 @@ p{
   color: white;
   text-decoration: none;
   margin: 10px;
+}
+
+.footer-right img{
+  width: 70px;
 }
