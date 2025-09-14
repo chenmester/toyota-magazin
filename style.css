@@ -66,10 +66,11 @@ img{
 #kojiszoveg{
   margin-top: 100px;
   margin-left: 100px;
-  float:left;
+  margin-right: 100px;
   background-color: lightgrey;
-  opacity: 90%;
-  border-radius: 0px;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: justify;
 }
 p{
   line-height: 30px;
@@ -80,5 +81,21 @@ p{
 }
 #koji{
   display: flex;
-  float:;
+  float:right;
+  margin: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between; /* bal és jobb oldalra tolja a tartalmat */
+  align-items: center;
+  background-color: #53c2ee;
+  padding: 15px 30px;
+  color: white;
+}
+
+.footer-left a,
+.footer-right a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
 }
